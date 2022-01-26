@@ -1,4 +1,5 @@
-# ams-icdd-usecases
+# ams-icdd-usecases [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5907142.svg)](https://doi.org/10.5281/zenodo.5907142)
+
 This repository provides two use cases for infrastructure asset management using information containers according to the [Information Container for linked Document Delivery standard (ISO 25197)](https://www.iso.org/standard/74389.html). Use Case 1 demonstrates the data preparation and result collection of bridge visual inspection with requirement- and delivery container. Use Case 2 demonstrates the pavement maintenance plan based on the existing condition data. Therefore, an additional connection to a relational database in the information container is provided in Use Case 2, which is registered within the container using an extension [EXDOC:Extension for document types for the ISO 21597 ICDD Part 1 Container ontology](https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument/).
 
 ## Reference
