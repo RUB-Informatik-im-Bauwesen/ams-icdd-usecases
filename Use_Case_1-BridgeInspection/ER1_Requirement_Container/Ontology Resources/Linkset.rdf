@@ -1,0 +1,344 @@
+﻿<?xml version="1.0"?>
+
+<!--
+Â© ISO 2020
+All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISOâ€™s member body in the country of the requester.
+ISO copyright office
+CP 401, Ch. de Blandonnet 8, CH-1214 Vernier, Geneva
+Phone: +41 22 749 01 11
+Fax: +41 22 749 09 47
+Email: copyright@iso.org
+Website: www.iso.org
+Published in Switzerland
+-->
+
+<rdf:RDF
+    xmlns:ct="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#"
+    xmlns:voaf="http://purl.org/vocommons/voaf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xml:base="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset">
+
+<!-- ISO 21597 Part 1 Linkset ontology metadata -->
+
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+  
+  <voaf:Vocabulary rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset">
+    <dcterms:creator>
+      <foaf:Organization>
+        <foaf:website>http://www.iso.org</foaf:website>
+        <foaf:Email>copyright@iso.org</foaf:Email>
+        <foaf:Fax>+41 22 749 09 47</foaf:Fax>
+        <foaf:Phone>+41 22 749 01 11</foaf:Phone>
+        <foaf:address>ISO copyright office CP 401, Ch. de Blandonnet 8, CH-1214 Vernier, Geneva</foaf:address>
+        <foaf:name>ISO</foaf:name>
+      </foaf:Organization>
+    </dcterms:creator>
+    <owl:versionInfo>v1.0</owl:versionInfo>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2020-01-01</dcterms:modified>
+    <vann:preferredNamespacePrefix>ls</vann:preferredNamespacePrefix>
+    <vann:preferredNamespaceUri rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2020-01-01</dcterms:issued>
+    <dcterms:description xml:lang="en-GB">ISO 21597 Part 1 gives a specification for a container that stores documents, along with a means of linking otherwise disconnected data within those documents. This linkset ontology is an RDF(S)/OWL file providing the object classes and properties that shall be used to specify between documents in a container.</dcterms:description>
+    <owl:imports rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container"/>
+    <dcterms:title xml:lang="en-GB">The ISO 21597 ICDD Part 1 Linkset ontology.</dcterms:title>
+    <dc:rights xml:lang="en-GB">© ISO 2020. All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester. 
+ISO copyright office
+ CP 401, Ch. de Blandonnet 8, CH-1214 Vernier, Geneva
+ Phone: +41 22 749 01 11
+ Fax: +41 22 749 09 47
+ Email: copyright@iso.org
+ Website: www.iso.org
+ Published in Switzerland</dc:rights>
+  </voaf:Vocabulary>
+
+<!-- ISO 21597 Part 1 Linkset ontology classes and properties -->
+
+  <owl:Class rdf:ID="QueryBasedIdentifier">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Identifier"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="queryExpression"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="queryLanguage"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en-GB">the query resulting in an identifier</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">Query based identifier</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="DirectedLink">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Link"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasToLinkElement"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasFromLinkElement"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en-GB">An ls:Link that uses the subproperties ls:hasFromLinkElement and ls:hasToLinkElement to denote a direction of this link</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">Directed link</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Identifier">
+    <owl:disjointUnionOf rdf:parseType="Collection">
+      <owl:Class rdf:about="#QueryBasedIdentifier"/>
+      <owl:Class rdf:ID="StringBasedIdentifier"/>
+      <owl:Class rdf:ID="URIBasedIdentifier"/>
+    </owl:disjointUnionOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment xml:lang="en-GB">An abstract class for identification of an element within a document; in cases where an identifier may be computed, this shall be managed by the implementer since no method is specified in this standard</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">Identifier</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="LinkElement">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasIdentifier"/>
+        </owl:onProperty>
+        <owl:onClass rdf:resource="#Identifier"/>
+        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:maxQualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:qualifiedCardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasDocument"/>
+        </owl:onProperty>
+        <owl:onClass rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en-GB">A class for referencing to a document or to an element in a document</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">Link element</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="DirectedBinaryLink">
+    <rdfs:subClassOf rdf:resource="#DirectedLink"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="BinaryLink"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#hasFromLinkElement"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#hasToLinkElement"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en-GB">a subtype of a binary link (that has exactly 2 LinkElements) that uses the subproperties ls:hasFromLinkElement and ls:hasToLinkElement to denote a direction of this link</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">Directed binary link</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+  <owl:Class rdf:about="#Link">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="hasLinkElement"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >2</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en-GB">A grouping of 1 or more instances of  ls:LinkElement</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">Link</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#URIBasedIdentifier">
+    <rdfs:subClassOf rdf:resource="#Identifier"/>
+    <rdfs:comment xml:lang="en-GB">URI-based identifier for a document, or element within a document, that is located on the web</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">URI based identifier</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Directed1toNLink">
+    <rdfs:subClassOf rdf:resource="#DirectedLink"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#hasFromLinkElement"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en-GB">an ls:Directed1toNLink is a subtype of ls:DirectedLink mandating exactly 1 ls:hasFromLinkElement</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">Directed1to NLink</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#StringBasedIdentifier">
+    <rdfs:subClassOf rdf:resource="#Identifier"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="identifier"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="identifierField"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en-GB">identification of an element within a document via a String ID</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">String based identifier</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#BinaryLink">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Link"/>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="#hasLinkElement"/>
+            </owl:onProperty>
+            <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >2</owl:cardinality>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf rdf:resource="#Link"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#hasLinkElement"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >2</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en-GB">An ls:Link comprising exactly 2 individuals of class ls:LinkElement</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">Binary link</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/vocommons/voaf#Vocabulary"/>
+  <owl:ObjectProperty rdf:about="#hasDocument">
+    <rdfs:range rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document"/>
+    <rdfs:domain rdf:resource="#LinkElement"/>
+    <rdfs:comment xml:lang="en-GB">a reference from a ls:LinkElement to a ct:Document</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">has document</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasToLinkElement">
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:about="#hasLinkElement"/>
+    </rdfs:subPropertyOf>
+    <rdfs:range rdf:resource="#LinkElement"/>
+    <rdfs:domain rdf:resource="#DirectedLink"/>
+    <rdfs:comment xml:lang="en-GB">a relation from an ls:Link to an ls:LinkElement. It is a sub property of ls:hasLinkElement</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">has to link element</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasLinkElement">
+    <rdfs:range rdf:resource="#LinkElement"/>
+    <rdfs:domain rdf:resource="#Link"/>
+    <rdfs:comment xml:lang="en-GB">a relation from an ls:Link to an ls:LinkElement</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">has link element</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasIdentifier">
+    <rdfs:range rdf:resource="#Identifier"/>
+    <rdfs:domain rdf:resource="#LinkElement"/>
+    <rdfs:comment xml:lang="en-GB">a relation from ls:LinkElement to an ls:Identifier</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">has identifier</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#hasFromLinkElement">
+    <rdfs:subPropertyOf rdf:resource="#hasLinkElement"/>
+    <rdfs:range rdf:resource="#LinkElement"/>
+    <rdfs:domain rdf:resource="#DirectedLink"/>
+    <rdfs:comment xml:lang="en-GB">a relation from an ls:Link to an ls:LinkElement. It is a sub property of ls:hasLinkElement</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">has from link element</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/address"/>
+  <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/website"/>
+  <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <owl:FunctionalProperty rdf:about="#identifier">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#StringBasedIdentifier"/>
+    <rdfs:comment xml:lang="en-GB">a datatype String property containing the actual ID string</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">identifier</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#queryLanguage">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#QueryBasedIdentifier"/>
+    <rdfs:comment xml:lang="en-GB">a query lanugage specification</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">query language</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#queryExpression">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#QueryBasedIdentifier"/>
+    <rdfs:comment xml:lang="en-GB">the query resulting into an identifier</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">query expression</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#identifierField">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#StringBasedIdentifier"/>
+    <rdfs:comment xml:lang="en-GB">a String datatype for defining the field(s) where the identifier can be found; in cases where the identifier is composed of multiple fields, the implementer shall choose the syntax rules</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">identifier field</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="uri">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:domain rdf:resource="#URIBasedIdentifier"/>
+    <rdfs:comment xml:lang="en-GB">an URI for referring to a document</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">uri</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+
+</rdf:RDF>

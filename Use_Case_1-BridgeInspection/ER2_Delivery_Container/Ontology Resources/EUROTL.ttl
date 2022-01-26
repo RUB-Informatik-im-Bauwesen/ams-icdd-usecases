@@ -1,0 +1,735 @@
+# baseURI: http://www.roadotl.eu/def/
+# imports: http://www.w3.org/ns/prov
+
+@prefix : <http://www.roadotl.eu/def/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://org.semanticweb.owlapi/error#Error5>
+  rdf:type owl:Class ;
+.
+<http://org.semanticweb.owlapi/error#Error6>
+  rdf:type owl:Class ;
+.
+<http://org.semanticweb.owlapi/error#Error7>
+  rdf:type owl:Class ;
+.
+<http://org.semanticweb.owlapi/error#Error8>
+  rdf:type owl:Class ;
+.
+<http://purl.org/dc/elements/1.1/>
+  <http://purl.org/dc/terms/modified> "2012-06-14"^^xsd:date ;
+  <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
+  <http://purl.org/dc/terms/title> "Dublin Core Metadata Element Set, Version 1.1"@en ;
+.
+<http://purl.org/dc/elements/1.1/contributor>
+  <http://purl.org/dc/terms/description> "Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#contributor-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "An entity responsible for making contributions to the resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Contributor"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/coverage>
+  <http://purl.org/dc/terms/description> "Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#coverage-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Coverage"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/creator>
+  <http://purl.org/dc/terms/description> "Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#creator-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "An entity primarily responsible for making the resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Creator"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/date>
+  <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#date-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "A point or period of time associated with an event in the lifecycle of the resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Date"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/description>
+  <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#description-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "An account of the resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Description"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/format>
+  <http://purl.org/dc/terms/description> "Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME]."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#format-007> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "The file format, physical medium, or dimensions of the resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Format"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/identifier>
+  <http://purl.org/dc/terms/description> "Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. "@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#identifier-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "An unambiguous reference to the resource within a given context."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Identifier"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/language>
+  <http://purl.org/dc/terms/description> "Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646]."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#language-007> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "A language of the resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Language"@en ;
+  rdfs:seeAlso <http://www.ietf.org/rfc/rfc4646.txt> ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/publisher>
+  <http://purl.org/dc/terms/description> "Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#publisher-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "An entity responsible for making the resource available."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Publisher"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/relation>
+  <http://purl.org/dc/terms/description> "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. "@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#relation-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "A related resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Relation"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/rights>
+  <http://purl.org/dc/terms/description> "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rights-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "Information about rights held in and over the resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Rights"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/source>
+  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#source-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "A related resource from which the described resource is derived."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Source"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/subject>
+  <http://purl.org/dc/terms/description> "Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#subject-007> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2012-06-14"^^xsd:date ;
+  rdfs:comment "The topic of the resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Subject"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/title>
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#title-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "A name given to the resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Title"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/elements/1.1/type>
+  <http://purl.org/dc/terms/description> "Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element."@en ;
+  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#type-006> ;
+  <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+  rdfs:comment "The nature or genre of the resource."@en ;
+  rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+  rdfs:label "Type"@en ;
+  <http://www.w3.org/2004/02/skos/core#note> "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en ;
+.
+<http://purl.org/dc/terms/description>
+  rdf:type owl:AnnotationProperty ;
+.
+<http://purl.org/dc/terms/hasVersion>
+  rdf:type owl:AnnotationProperty ;
+.
+<http://purl.org/dc/terms/issued>
+  rdf:type owl:AnnotationProperty ;
+.
+<http://purl.org/dc/terms/modified>
+  rdf:type owl:AnnotationProperty ;
+.
+<http://purl.org/dc/terms/publisher>
+  rdf:type owl:AnnotationProperty ;
+.
+<http://purl.org/dc/terms/title>
+  rdf:type owl:AnnotationProperty ;
+.
+:
+  rdf:type owl:Ontology ;
+  <http://purl.org/dc/elements/1.1/creator> "<http://www.roadotl.eu>" ;
+  <http://purl.org/dc/elements/1.1/description> "The European Road OTL core definitions."@en ;
+  <http://purl.org/dc/elements/1.1/title> "Basic European Road OTL"@en ;
+  <http://purl.org/dc/terms/abstract> """This is the main ontology within the European Road OTL framework that serves as a hub for linking concepts (schema elements) and data between different domain ontologies. This ontology uses cmo and prov-o as upper ontologies to provide a basic and proven structure. Based on these, it defines a number of basic concepts relevant for road asset management from a lifecycle perspective such as:  
+- Provenance based on the w3c prov-o ontology 
+- The General AEC Reference Model (GARM) [Gielingh, 2008 - A THEORY FOR THE MODELLING OF COMPLEX AND DYNAMIC SYSTEMS - https://www.itcon.org/papers/2008_27.content.03759.pdf]
+- Distinction between physical and spatial objects 
+- Decomposition of objects (assembly/part) 
+- Connectivity between objects through ports and connections 
+- Location and shape 
+- Activities 
+- Baselines (lifecycle stages) 
+- Suitability 
+- Linked documents (also to non-Linked data) 
+- Quantities and units
+
+This ontology can be used as a basic data model according to the above listing. To provide more semantics, e.g. regarding asset classification, providing location/shape or other detailed information for the objects, several ways may be employed including schema level linking (as was done between this ontology and other ontologies developed by INTERLINK) or multiple typing of individuals using more than one rdf:type statements for each individual."""@en ;
+  <http://purl.org/dc/terms/created> "2018-08-27" ;
+  <http://purl.org/vocab/vann/preferredNamespacePrefix> "eurotl" ;
+  <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.roadotl.eu/def/" ;
+  owl:imports <http://www.w3.org/ns/prov> ;
+  owl:versionInfo "Version 0.91" ;
+.
+:AGORALocation
+  rdf:type owl:Class ;
+  rdfs:comment "A dynamic location reference as defined by ISO 17572-3. Included here as a placeholder"@en ;
+  rdfs:subClassOf :ISO17572DynamicLocationReference ;
+.
+:Accident
+  rdf:type owl:Class ;
+  rdfs:comment "an unfortunate incident that happens unexpectedly and unintentionally, typically resulting in damage or injury. Class is included as an example/placeholder"@en ;
+  rdfs:label "Accident" ;
+  rdfs:subClassOf prov:InstantaneousEvent ;
+.
+:Address
+  rdf:type owl:Class ;
+  rdfs:comment "An identification of the fixed location of a property. The full address is a hierarchy consisting of components such as geographic names, with an increasing level of detail, e.g.: town, then street name, then house number or name. It may also include a post code or other postal descriptors. The address may include a path of access but this depends on the function of the address. [INSPIRE]"@en ;
+  rdfs:subClassOf :LocationByIdentifier ;
+.
+:AsBuilt
+  rdf:type :LifecyclePhase ;
+  rdf:type owl:NamedIndividual ;
+  rdfs:comment "Represents the (end of) the construction phase"@en ;
+  rdfs:label "Build" ;
+.
+:AsDesigned
+  rdf:type :LifecyclePhase ;
+  rdf:type owl:NamedIndividual ;
+  rdfs:comment "Represents the (end of) the design phase"@en ;
+  rdfs:label "Design" ;
+.
+:AsRequired
+  rdf:type :LifecyclePhase ;
+  rdf:type owl:NamedIndividual ;
+  rdfs:comment "Represents the (end of) the planning phase"@en ;
+  rdfs:label "Plan" ;
+.
+:Baseline
+  rdf:type owl:Class ;
+  rdfs:comment """Applicable definitions from [http://everyspec.com/MIL-HDBK/MIL-HDBK-0001-0099/MIL-HDBK-61A_15177/] are:
+(1) An agreed-to description of the attributes of a product, at a point in time, which serves as a basis for defining change. 
+(2) An approved and released document, or a set of documents, each of a specific revision; the purpose of which is to provide a defined basis for managing change.
+(3) The currently approved and released configuration documentation. 
+Translated to the EUROTL a baseline refers to a named collection of objects (or object revisions) that represents a state at a certain point in time (such as at the end of a lifecycle stage). A baseline may be used as basis for data exchange, approval, alternatives etc and may conceptually be compared to a file or a folder consisting of files. Objects or object revisions are connected to a baseline with the objectProperty eurotl:hasBaseline.
+Within this ontology, a baseline may be associated with e.g. a lifecycle phase, suitability etc"""@en ;
+  rdfs:label "Baseline" ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom :Baseline ;
+      owl:onProperty prov:alternateOf ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass :Baseline ;
+      owl:onProperty prov:alternateOf ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :conformantToBaseline ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :fromPhase ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasSuitability ;
+    ] ;
+.
+:Condition
+  rdf:type owl:Class ;
+  rdfs:comment "The state for an object, either observed or predicted"@en ;
+  rdfs:label "Issue" ;
+  rdfs:subClassOf prov:Entity ;
+.
+:Crossing
+  rdf:type owl:Class ;
+  rdfs:comment "A place where two or more roads or railways intersect"@en ;
+  rdfs:label "Crossing" ;
+  rdfs:subClassOf :SpatialObject ;
+.
+:Document
+  rdf:type owl:Class ;
+  rdfs:comment "A proxy for any document which from the view of the european road OTL is considered as one unit. Examples of documents may be IFC STEP files, XML documents, Excel documents, CAD drawings, PDF documents etc. A document may be related to any object"@en ;
+  rdfs:label "Document" ;
+  rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error8> ;
+  rdfs:subClassOf prov:Entity ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasReference ;
+    ] ;
+.
+:Fulfilment
+  rdf:type owl:Class ;
+  rdfs:comment "The objectified relationship between a technical solution (eurotl:byTechnicalSolution) and a functional unit (eurotl:ofFunctionalUnit). There may be many different technical solutions which fulfills a functional unit."@en ;
+  rdfs:label "Fulfilment" ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :byTechnicalSolution ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :ofFunctionalUnit ;
+    ] ;
+.
+:Function
+  rdf:type owl:Class ;
+  rdfs:comment "A purpose of a thing"@en ;
+  rdfs:label "Function" ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasRequirement ;
+    ] ;
+.
+:FunctionalPort
+  rdf:type owl:Class ;
+  rdfs:comment "A port which belongs to a functional unit"@en ;
+  rdfs:label "FunctionalPort" ;
+  rdfs:subClassOf :Port ;
+.
+:FunctionalUnit
+  rdf:type owl:Class ;
+  rdfs:comment "Defines the role of a subsystem or part in a larger whole. It defines also requirements and boundary conditions for the subsystem or part. [Gielingh, 2008 - A theory for the modelling of complex and dynamic systems - https://www.itcon.org/papers/2008_27.content.03759.pdf]"@en ;
+  rdfs:label "FunctionalUnit" ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasFunction ;
+    ] ;
+.
+:GeographicalName
+  rdf:type owl:Class ;
+  rdfs:comment "Spatial reference in the form of a label or code that identifies a location"@en ;
+  rdfs:subClassOf :LocationByIdentifier ;
+.
+:Geometry
+  rdf:type owl:Class ;
+  rdfs:comment "the shape and relative arrangement of the parts of something"@en ;
+  rdfs:subClassOf :Object ;
+.
+:ISO17572DynamicLocationReference
+  rdf:type owl:Class ;
+  rdfs:comment "A dynamic location reference as defined by ISO 17572. Included here only as a placeholder."@en ;
+  rdfs:subClassOf prov:Location ;
+.
+:InService
+  rdf:type :LifecyclePhase ;
+  rdf:type owl:NamedIndividual ;
+  rdfs:comment "Represents the phase where a construction exists in the real world and is intended to be service/use"@en ;
+  rdfs:label "Operate" ;
+.
+:InspectionActivity
+  rdf:type owl:Class ;
+  rdfs:comment "An activity with the purpose of inspecting something. May result in e.g. observed conditions for objects"@en ;
+  rdfs:label "InspectionActivity" ;
+  rdfs:subClassOf prov:Activity ;
+.
+:IntervalRequirement
+  rdf:type owl:Class ;
+  rdfs:comment "A requirement for a property value to exist within a specified interval"@en ;
+  rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error5> ;
+  rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error6> ;
+  rdfs:subClassOf :Requirement ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :propertyReference ;
+    ] ;
+.
+:Lane
+  rdf:type owl:Class ;
+  rdfs:comment "a division of a road marked off with painted lines and intended to separate single lines of traffic according to speed or direction"@en ;
+  rdfs:label "Lane" ;
+  rdfs:subClassOf :SpatialObject ;
+.
+:LifecyclePhase
+  rdf:type owl:Class ;
+  rdfs:comment "A named subset of the whole lifecycle of an activity or object"@en ;
+  rdfs:label "LifecyclePhase" ;
+.
+:LocationByCoordinates
+  rdf:type owl:Class ;
+  rdfs:comment "A location defined by means of coordinates"@en ;
+  rdfs:label "LocationByCoordinates" ;
+  rdfs:subClassOf prov:Location ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasGeometry ;
+    ] ;
+.
+:LocationByIdentifier
+  rdf:type owl:Class ;
+  rdfs:comment "A location defined by a known geographic place using some identifier"@en ;
+  rdfs:subClassOf prov:Location ;
+.
+:LocationByTransformation
+  rdf:type owl:Class ;
+  rdfs:comment "A location defined by a transformation (translation, reflection, rotation, scaling)"@en ;
+  rdfs:subClassOf prov:Location ;
+.
+:LocationCode
+  rdf:type owl:Class ;
+  rdfs:comment "A system for identifying an area anywhere on earth based on pre-defined codes such as Open Location Code (OLC) or TMC Location Codes"@en ;
+  rdfs:subClassOf :LocationByIdentifier ;
+.
+:MaintenanceActivity
+  rdf:type owl:Class ;
+  rdfs:comment "An activity with the purpose of maintaining something. May result in e.g. new and improved conditions for objects"@en ;
+  rdfs:label "MaintenanceActivity" ;
+  rdfs:subClassOf prov:Activity ;
+.
+:Material
+  rdf:type owl:Class ;
+  rdfs:comment "the matter from which a thing is or can be made"@en ;
+  rdfs:label "Material" ;
+  rdfs:subClassOf :Object ;
+.
+:Object
+  rdf:type owl:Class ;
+  rdfs:comment "An object of interest in the context of a construction process"@en ;
+  rdfs:label "Object" ;
+  rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error7> ;
+  rdfs:subClassOf prov:Entity ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasBaseline ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasCondition ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasDocument ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasDocumentFragmentReference ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty prov:atLocation ;
+    ] ;
+.
+:OpenLRLocation
+  rdf:type owl:Class ;
+  rdfs:comment "A dynamic location reference as defined by http://www.openlr.org. Included here as a placeholder"@en ;
+  rdfs:isDefinedBy <http://www.openlr.org> ;
+  rdfs:subClassOf :ISO17572DynamicLocationReference ;
+.
+:PhysicalObject
+  rdf:type owl:Class ;
+  rdfs:comment "An object with defined shape, material and location in space and time"@en ;
+  rdfs:label "PhysicalObject" ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasPort ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasRepresentation ;
+    ] ;
+.
+:Port
+  rdf:type owl:Class ;
+  rdfs:comment "A boundary connection point which allows an object to be connected to boundary connection points of other objects"@en ;
+  rdfs:label "Port" ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasConnection ;
+    ] ;
+.
+:RealisationActivity
+  rdf:type owl:Class ;
+  rdfs:comment "An activity with the purpose of constructing something. May result in e.g. realized/installed objects"@en ;
+  rdfs:label "RealisationActivity" ;
+  rdfs:subClassOf prov:Activity ;
+.
+:ReplacementActivity
+  rdf:type owl:Class ;
+  rdfs:comment "An activity with the purpose of replacing something with something else. May result in e.g. new technical solution for a certain functional unit"@en ;
+  rdfs:label "ReplacementActivity" ;
+  rdfs:subClassOf prov:Activity ;
+.
+:Requirement
+  rdf:type owl:Class ;
+  rdfs:comment "Something that is needed or that must be done"@en ;
+  rdfs:label "Requirement" ;
+  rdfs:subClassOf :Object ;
+.
+:SpatialObject
+  rdf:type owl:Class ;
+  rdfs:comment "An abstract representation of a real-world phenomenon related to a specific location or geographical area"@en ;
+  rdfs:label "SpatialObject" ;
+  rdfs:subClassOf :Object ;
+.
+:Suitability
+  rdf:type owl:Class ;
+  rdfs:comment "Meta-data describing the permitted use of an information deliverable"@en ;
+  rdfs:subClassOf owl:Thing ;
+.
+:Suitability_Accepted
+  rdf:type :Suitability ;
+  rdf:type owl:NamedIndividual ;
+  rdfs:comment "Indicates that something was accepted"@en ;
+.
+:Suitability_ForAcceptance
+  rdf:type :Suitability ;
+  rdf:type owl:NamedIndividual ;
+  rdfs:comment "Indicates that acceptance is requested but not yet achieved"@en ;
+.
+:Suitability_ForInformation
+  rdf:type :Suitability ;
+  rdf:type owl:NamedIndividual ;
+  rdfs:comment "Indicates the something is for information only"@en ;
+.
+:TechnicalPort
+  rdf:type owl:Class ;
+  rdfs:comment "A port which belongs to a technical solution"@en ;
+  rdfs:label "TechnicalPort" ;
+  rdfs:subClassOf :Port ;
+.
+:TechnicalSolution
+  rdf:type owl:Class ;
+  rdfs:comment "A Technical Specification describes the subsystem or part, independent of its role in the larger whole. In the course of a design process, it can also be seen as a solution for a design problem.  A Technical Solution contains a full specification of an artifact and/or process on a particular level of (de)composition. It contains also Functional Units of subsystems or parts, but not the technical details of these subsystems or parts. This principle keeps a specification modular.[Gielingh, 2008 - A theory for the modelling of complex and dynamic systems - https://www.itcon.org/papers/2008_27.content.03759.pdf]"@en ;
+  rdfs:label "TechnicalSolution" ;
+  rdfs:subClassOf :Object ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty :hasCondition ;
+    ] ;
+.
+:boundBy
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Indicates that a spatial object is bounded by a physical object"@en ;
+  rdfs:domain :SpatialObject ;
+  rdfs:label "boundBy" ;
+  rdfs:range :PhysicalObject ;
+.
+:byTechnicalSolution
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Specifies the technical solution for a fulfillment"@en ;
+  rdfs:domain :Fulfilment ;
+  rdfs:label "byTechnicalSolution" ;
+  rdfs:range :TechnicalSolution ;
+.
+:conformantToBaseline
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Connects a baseline to another baseline from a conformance point-of-view"@en ;
+  rdfs:domain :Baseline ;
+  rdfs:label "conformantToBaseline" ;
+  rdfs:range :Baseline ;
+.
+:containedIn
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Specifies that a physical object is contained in a spatial object"@en ;
+  rdfs:domain :PhysicalObject ;
+  rdfs:label "containedIn" ;
+  rdfs:range :SpatialObject ;
+.
+:fromPhase
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Specifies that a baseline is valid for a lifecycle phase"@en ;
+  rdfs:domain :Baseline ;
+  rdfs:label "fromPhase" ;
+  rdfs:range :LifecyclePhase ;
+.
+:fromTemplate
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Indicates that the subject uses the object as a template, making all statements about the object true also for the subject"@en ;
+  rdfs:domain :TechnicalSolution ;
+  rdfs:range :TechnicalSolution ;
+.
+:hasBaseline
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Associates an object or revision to a baseline"@en ;
+  rdfs:domain :Object ;
+  rdfs:label "hasBaseLine" ;
+  rdfs:range :Baseline ;
+.
+:hasCondition
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Associates a condition to a thing"@en ;
+  rdfs:label "hasIssue" ;
+  rdfs:range :Condition ;
+.
+:hasConnection
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  rdf:type owl:SymmetricProperty ;
+  rdfs:comment "A connection between a port an another port"@en ;
+  rdfs:domain :Port ;
+  rdfs:label "hasConnection" ;
+  rdfs:range :Port ;
+.
+:hasDocument
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Associates a document with an object"@en ;
+  rdfs:domain :Object ;
+  rdfs:label "hasDocument" ;
+  rdfs:range :Document ;
+.
+:hasDocumentFragmentReference
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "A reference to a referencerable subset of a document such as one element in an XML document"@en ;
+  rdfs:domain :Object ;
+  rdfs:label "hasDocumentFragmentReference" ;
+  rdfs:range xsd:string ;
+.
+:hasFunction
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Associates a function with a functional unit"@en ;
+  rdfs:domain :FunctionalUnit ;
+  rdfs:label "hasFunction" ;
+  rdfs:range :Function ;
+.
+:hasGeometry
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Associates geometry to a thing"@en ;
+  rdfs:label "hasGeometry" ;
+  rdfs:range :Geometry ;
+.
+:hasPort
+  rdf:type owl:InverseFunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Associates a port with an object"@en ;
+  rdfs:domain :Object ;
+  rdfs:label "hasPort" ;
+  rdfs:range :Port ;
+.
+:hasReference
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "A reference to a URI that identifies a document"@en ;
+  rdfs:domain :Document ;
+  rdfs:label "hasReference" ;
+  rdfs:range xsd:anyURI ;
+.
+:hasRepresentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Associates something (such as an IFC model) which represents a physical object"@en ;
+  rdfs:domain :PhysicalObject ;
+  rdfs:label "hasRepresentation" ;
+.
+:hasRequirement
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Associates a requirement to a function"@en ;
+  rdfs:domain :Function ;
+  rdfs:label "hasRequirement" ;
+  rdfs:range :Requirement ;
+.
+:hasSuitability
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Associates suitability with a thing"@en ;
+  rdfs:range :Suitability ;
+.
+:ofFunctionalUnit
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Specifies which functional unit a fulfillment concerns"@en ;
+  rdfs:domain :Fulfilment ;
+  rdfs:label "ofFunctionalUnit" ;
+  rdfs:range :FunctionalUnit ;
+.
+:propertyReference
+  rdf:type owl:DatatypeProperty ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Associates a datatype property with a requirement"@en ;
+  rdfs:domain :Requirement ;
+  rdfs:label "propertyReference" ;
+  rdfs:range owl:DatatypeProperty ;
+.
+xsd:date
+  rdf:type rdfs:Datatype ;
+.
+owl:DatatypeProperty
+  rdf:type owl:Class ;
+.
+owl:minCardinality
+  rdf:type owl:AnnotationProperty ;
+.
+<http://www.w3.org/2004/02/skos/core#note>
+  rdf:type owl:AnnotationProperty ;
+.
+[
+  owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+].
+[
+  owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+].
+[
+  owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+].
+[
+  owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+].

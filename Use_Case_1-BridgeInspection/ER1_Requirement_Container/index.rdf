@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+	<!ENTITY xml 'http://www.w3.org/XML/1998/namespace'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY ct 'https://standards.iso.org/iso/21597/-1/ed-1/en/Container#'>
+	<!ENTITY ls 'https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#'>
+	<!ENTITY els 'https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#'>
+	<!ENTITY exdc 'https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#'>
+]>
+<rdf:RDF xml:base="https://icdd.vm.rub.de/data/-202220145/index" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ct="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#" xmlns:ls="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#" xmlns:els="https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#" xmlns:exdc="https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#" xmlns="https://icdd.vm.rub.de/data/-202220145/index#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="https://icdd.vm.rub.de/data/-202220145/index">
+    <owl:imports rdf:resource="https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument.rdf" />
+    <owl:imports rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container.rdf" />
+    <owl:imports rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset.rdf" />
+    <owl:imports rdf:resource="https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset.rdf" />
+  </rdf:Description>
+  <ct:Linkset rdf:about="https://icdd.vm.rub.de/data/-202220145/index#00580172-d003-4ed0-936c-346512be26fa" ct:filename="Ls_ifc_element.rdf">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 11:08:21</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 11:08:21</ct:modificationDate>
+  </ct:Linkset>
+  <ct:ContainerDescription rdf:about="https://icdd.vm.rub.de/data/-202220145/index#0074e8d2-bba3-4f21-ad69-11cc7122cf73" ct:conformanceIndicator="ICDD-Part1-Container" ct:description="Visual Bridge Inspection Assignment" ct:versionDescription="Initial Version" ct:versionId="1">
+    <ct:containsDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#6cf0bac7-cb90-4119-aea0-c3f61e3eff38" />
+    <ct:containsDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" />
+    <ct:containsDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#a7da5229-f8fe-4828-a7b9-24b2fb87f637" />
+    <ct:containsDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#b015c539-7fce-498e-a8f5-e49fd571e514" />
+    <ct:containsDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#c848359b-960c-4ecf-8008-eb70a8e16998" />
+    <ct:containsLinkset rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#00580172-d003-4ed0-936c-346512be26fa" />
+    <ct:containsLinkset rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#2e7ab62d-97a5-4124-8775-ff1d95fe6fa0" />
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 11:02:57</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 12:52:35</ct:modificationDate>
+    <ct:modifiedBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+  </ct:ContainerDescription>
+  <ct:Linkset rdf:about="https://icdd.vm.rub.de/data/-202220145/index#2e7ab62d-97a5-4124-8775-ff1d95fe6fa0" ct:filename="Ls_element_inspection.rdf">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 11:08:51</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 11:08:51</ct:modificationDate>
+  </ct:Linkset>
+  <ct:InternalDocument rdf:about="https://icdd.vm.rub.de/data/-202220145/index#6cf0bac7-cb90-4119-aea0-c3f61e3eff38" ct:description="Damage elements as object model" ct:filename="DamagePlacement.ifc" ct:filetype="ifc" ct:format="application/octet-stream" ct:name="DamagePlacement.ifc" ct:versionDescription="This is the first version added using the ICDDToolkitLibrary." ct:versionId="1">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 12:50:55</ct:creationDate>
+    <ct:requested rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:requested>
+  </ct:InternalDocument>
+  <exdc:PayloadProxy rdf:about="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" ct:description="This ExtPayloadProxy has been added for the payload triples file Elements.instances" ct:filetype="http" ct:format="rfc3986" ct:name="Elements.instances.ttl" ct:url="file:///C:/inetpub/wwwroot/data-dev/i6FtLxZZtUOof8ujqaNdcA/43b28523-b720-4bf0-bf68-6e3628727f00/Payload%20triples/Elements.instances.ttl" ct:versionDescription="This is the first version added using the ICDDToolkitLibrary." ct:versionId="1">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 11:07:42</ct:creationDate>
+  </exdc:PayloadProxy>
+  <exdc:PayloadProxy rdf:about="https://icdd.vm.rub.de/data/-202220145/index#a7da5229-f8fe-4828-a7b9-24b2fb87f637" ct:description="This ExtPayloadProxy has been added for the payload triples file Inspections.instances" ct:filetype="http" ct:format="rfc3986" ct:name="Inspections.instances.ttl" ct:url="file:///C:/inetpub/wwwroot/data-dev/i6FtLxZZtUOof8ujqaNdcA/43b28523-b720-4bf0-bf68-6e3628727f00/Payload%20triples/Inspections.instances.ttl" ct:versionDescription="This is the first version added using the ICDDToolkitLibrary." ct:versionId="1">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 11:07:54</ct:creationDate>
+  </exdc:PayloadProxy>
+  <ct:InternalDocument rdf:about="https://icdd.vm.rub.de/data/-202220145/index#b015c539-7fce-498e-a8f5-e49fd571e514" ct:description="Bridge model" ct:filename="BridgeModel.ifc" ct:filetype="ifc" ct:format="application/octet-stream" ct:name="BridgeModel.ifc" ct:versionDescription="This is the first version added using the ICDDToolkitLibrary." ct:versionId="1">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 11:06:06</ct:creationDate>
+  </ct:InternalDocument>
+  <ct:InternalDocument rdf:about="https://icdd.vm.rub.de/data/-202220145/index#c848359b-960c-4ecf-8008-eb70a8e16998" ct:description="Damage image" ct:filename="DamageImage.jpg" ct:filetype="jpg" ct:format="image/jpeg" ct:name="DamageImage.jpg" ct:versionDescription="This is the first version added using the ICDDToolkitLibrary." ct:versionId="1">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 12:52:09</ct:creationDate>
+    <ct:requested rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:requested>
+  </ct:InternalDocument>
+  <ct:Person rdf:about="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" ct:name="liuliu">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 11:02:57</ct:creationDate>
+  </ct:Person>
+</rdf:RDF>

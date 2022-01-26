@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<rdf:RDF 
+xmlns:exdc="https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#" 
+xmlns:ct="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#" 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:dcterms="http://purl.org/dc/terms/" 
+xmlns:dc="http://purl.org/dc/elements/1.1/" 
+xmlns:owl="http://www.w3.org/2002/07/owl#" 
+xmlns:voaf="http://purl.org/vocommons/voaf#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:sdo="https://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xml:base="https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument">
+  <voaf:Vocabulary rdf:about="">
+    <vann:preferredNamespaceUri rdf:resource="https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument" />
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-08</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-16</dcterms:modified>
+    <vann:preferredNamespacePrefix>exdc</vann:preferredNamespacePrefix>
+    <dcterms:title xml:lang="en-GB">Extension for document types for the ISO 21597 ICDD Part 1 Container ontology</dcterms:title>
+    <dcterms:description xml:lang="en-GB">This ontology provides an extension for document types for the ISO 21597 ICDD Part 1 Container ontology at [https://standards.iso.org/iso/21597/-1/ed-1/en/Container](https://standards.iso.org/iso/21597/-1/ed-1/en/Container). It includes the ExternalDatabase class as a subclass of the ct:ExternalDocument class. This class can be used to provide information from an existing relational database, e.g., to retrieve data from DB and convert it into payload triples using R2RML mappings.</dcterms:description>
+    <owl:versionInfo>v0.3</owl:versionInfo>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+    <owl:versionIRI rdf:resource="https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology" />
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Philipp Hagedorn</foaf:name>
+        <foaf:Email rdf:resource="mailto:philipp.hagedorn-n6v@rub.de" />
+        <sdo:identifier rdf:resource="https://orcid.org/0000-0002-6249-243X" />
+        <foaf:homepage rdf:resource="https://orcid.org/0000-0002-6249-243X" />
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:publisher>
+      <foaf:Organization>
+        <foaf:name>Lehrstuhl Informatik im Bauwesen</foaf:name>
+        <foaf:homepage rdf:resource="http://www.inf.bi.rub.de" />
+      </foaf:Organization>
+    </dcterms:publisher>
+    <dcterms:source rdf:resource="https://git.inf.bi.ruhr-uni-bochum.de/semweb-ontology/extendeddocument" />
+  </voaf:Vocabulary>
+  <owl:Class rdf:ID="ExternalDatabase">
+    <rdfs:label xml:lang="en-GB">External Database</rdfs:label>
+    <rdfs:comment xml:lang="en-GB">a proxy document referencing to an external data source with a connection string</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ExternalDocument" />
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="databaseConnectionString" />
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="databaseType" />
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="databaseQueryLanguage" />
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:ID="databaseName" />
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="databaseMapping" />
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="#databaseMapping">
+    <rdfs:comment xml:lang="en-GB">The mapping file, which allows for the generation of structured RDF-based data from the specified database. This file also needs to be specified within the respective container.</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">database mapping</rdfs:label>
+    <rdfs:range rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document" />
+    <rdfs:domain rdf:resource="#ExternalDatabase" />
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="#databaseConnectionString">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+    <rdfs:domain rdf:resource="#ExternalDatabase" />
+    <rdfs:label xml:lang="en-GB">connection string</rdfs:label>
+    <rdfs:comment xml:lang="en-GB">A database connection string is a string that specifies information about a data source and the means of connecting to it from an ICDD. It can be passed to an underlying driver or provider in order to initiate the connection. Warning: The connection string holds sensitive information.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#databaseName">
+    <rdfs:comment xml:lang="en-GB">The database name is used to adress the correct mapping from the mapping file to a certain database within the connection string.</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">database name</rdfs:label>
+    <rdfs:domain rdf:resource="#ExternalDatabase" />
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+    <rdfs:subPropertyOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#name" />
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#databaseType">
+    <rdfs:comment xml:lang="en-GB">The type of database that is specified, e.g. MySQL, NoSQL, and others.</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">database type</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+    <rdfs:domain rdf:resource="#ExternalDatabase" />
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#databaseQueryLanguage">
+    <rdfs:comment xml:lang="en-GB">The query language, which can be used to retrieve information from the specified database.</rdfs:comment>
+    <rdfs:label xml:lang="en-GB">query language</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+  </owl:DatatypeProperty>
+</rdf:RDF>
+<!-- Created with TopBraid -->

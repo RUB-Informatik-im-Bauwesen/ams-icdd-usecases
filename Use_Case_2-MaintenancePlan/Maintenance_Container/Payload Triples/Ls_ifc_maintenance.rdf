@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY ct 'https://standards.iso.org/iso/21597/-1/ed-1/en/Container#'>
+	<!ENTITY ls 'https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#'>
+	<!ENTITY els 'https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#'>
+	<!ENTITY exdc 'https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#'>
+]>
+<rdf:RDF xml:base="https://icdd.vm.rub.de/data/Maintenance_Container-2022201423/ls/Ls_ifc_maintenance" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ct="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#" xmlns:ls="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#" xmlns:els="https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#" xmlns:exdc="https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#" xmlns="https://icdd.vm.rub.de/data/Maintenance_Container-2022201423/ls/Ls_ifc_maintenance#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="https://icdd.vm.rub.de/data/Maintenance_Container-2022201423/ls/Ls_ifc_maintenance">
+    <owl:imports rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset.rdf" />
+  </rdf:Description>
+  <owl:Ontology rdf:about="https://icdd.vm.rub.de/data/Maintenance_Container-2022201423/ls/Ls_ifc_maintenance#1a7f89ea-ae55-4f3b-8d31-93b9578202ee">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 17:11:15</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 17:11:15</ct:modificationDate>
+  </owl:Ontology>
+</rdf:RDF>

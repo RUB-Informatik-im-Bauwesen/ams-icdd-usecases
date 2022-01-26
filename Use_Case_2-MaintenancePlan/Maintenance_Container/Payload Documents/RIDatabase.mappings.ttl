@@ -1,0 +1,179 @@
+PREFIX amsql: <http://icdd.vm.rub.de/ontology/amsql#>
+PREFIX amsinst: <http://icdd.vm.rub.de/ontology/amsinstances#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX asbing: <http://asbing.de/condition/def/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX eurotl: <http://www.roadotl.eu/def/>
+PREFIX rr: <http://www.w3.org/ns/r2rml#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX schema: <https://schema.org/> 
+
+amsinst:SpatialObjectMap
+    rr:logicalTable [ rr:tableName "[dbo].[Condition]" ];
+    rr:subjectMap [
+        rr:template "http://icdd.vm.rub.de/ontology/amsinstances#SpatialObject_{Id}";
+        rr:class eurotl:SpatialObject;
+        rr:class eurotl:Lane;
+    ]; 
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [ rr:column "Id" ];
+    ];
+     rr:predicateObjectMap [
+        rr:predicate prov:generatedAtTime;
+        rr:objectMap [ rr:column "Date";  rr:datatype xsd:Date];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate eurotl:hasCondition;
+        rr:objectMap [ 
+            rr:template "Friction_SpatialObject_{Id}"; 
+            rr:termType rr:BlankNode;
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate eurotl:hasCondition;
+        rr:objectMap [ 
+            rr:template "Evenness_SpatialObject_{Id}"; 
+            rr:termType rr:BlankNode;
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate eurotl:hasCondition;
+        rr:objectMap [ 
+            rr:template "RutDepth_SpatialObject_{Id}"; 
+            rr:termType rr:BlankNode;
+        ];
+    ];
+        rr:predicateObjectMap [
+        rr:predicate eurotl:hasCondition;
+        rr:objectMap [ 
+            rr:template "CrackWidth_SpatialObject_{Id}"; 
+            rr:termType rr:BlankNode;
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate prov:atLocation;
+        rr:objectMap [ 
+            rr:template "LocationGeographicalName_SpatialObject_{Id}"; 
+            rr:termType rr:BlankNode;
+        ];
+    ];
+     rr:predicateObjectMap [
+        rr:predicate prov:atLocation;
+        rr:objectMap [ 
+            rr:template "LocationByCoordinates_SpatialObject_{Id}"; 
+            rr:termType rr:BlankNode;
+        ];
+    ];
+.
+
+amsinst:FrictionMap
+    rr:logicalTable [ rr:tableName "[dbo].[Condition]" ];
+    rr:subjectMap [
+        rr:template "Friction_SpatialObject_{Id}";
+        rr:termType rr:BlankNode;
+        rr:class eurotl:Condition;
+        rr:class amsinst:Friction;
+    ]; 
+    rr:predicateObjectMap [
+        rr:predicate prov:value;
+        rr:objectMap [ rr:column "Friction"; rr:datatype xsd:decimal];
+    ];
+     rr:predicateObjectMap
+    [ 
+        rr:predicate  rdfs:label ; 
+        rr:objectMap [ rr:constant "Friction"; ] 
+    ]
+.
+
+amsinst:EvennessMap
+  rr:logicalTable [ rr:tableName "[dbo].[Condition]" ];
+    rr:subjectMap [
+        rr:template "Evenness_SpatialObject_{Id}";
+        rr:termType rr:BlankNode;
+        rr:class eurotl:Condition;
+        rr:class amsinst:Evenness;
+    ]; 
+    rr:predicateObjectMap [
+        rr:predicate prov:value;
+        rr:objectMap [ rr:column "Evenness"; rr:datatype xsd:decimal ];
+    ];
+     rr:predicateObjectMap
+    [ 
+        rr:predicate  rdfs:label ; 
+        rr:objectMap [ rr:constant "Evenness"; ] 
+    ]
+.
+
+amsinst:RutDepthMap
+    rr:logicalTable [ rr:tableName "[dbo].[Condition]" ];
+    rr:subjectMap [
+        rr:template "RutDepth_SpatialObject_{Id}";
+                rr:termType rr:BlankNode;
+        rr:class eurotl:Condition;
+        rr:class amsinst:RutDepth;
+    ]; 
+    rr:predicateObjectMap [
+        rr:predicate prov:value;
+        rr:objectMap [ rr:column "RutDepth"; rr:datatype xsd:decimal ];
+    ];
+     rr:predicateObjectMap
+    [ 
+        rr:predicate  rdfs:label ; 
+        rr:objectMap [ rr:constant "RutDepth"; ] 
+    ]
+.
+
+amsinst:CrackWidthMap
+    rr:logicalTable [ rr:tableName "[dbo].[Condition]" ];
+    rr:subjectMap [
+        rr:template "CrackWidth_SpatialObject_{Id}";
+        rr:termType rr:BlankNode;
+        rr:class eurotl:Condition;
+        rr:class amsinst:CrackWidth;
+    ]; 
+    rr:predicateObjectMap [
+        rr:predicate prov:value;
+        rr:objectMap [ rr:column "CrackWidth"; rr:datatype xsd:decimal ];
+    ];
+     rr:predicateObjectMap
+    [ 
+        rr:predicate  rdfs:label ; 
+        rr:objectMap [ rr:constant "CrackWidth"; ] 
+    ]
+.
+
+amsinst:LocationGeographicalNameMap
+    rr:logicalTable [ rr:tableName "[dbo].[Condition]" ];
+    rr:subjectMap [
+        rr:template "LocationGeographicalName_SpatialObject_{Id}";
+        rr:termType rr:BlankNode;
+        rr:class eurotl:LocationGeographicalName;
+    ]; 
+    rr:predicateObjectMap [
+        rr:predicate rdf:label;
+        rr:objectMap [ rr:column "RoadLaneKey" ];
+    ];
+.
+
+amsinst:LocationByCoordinatesMap
+    rr:logicalTable [ rr:tableName "[dbo].[Condition]" ];
+    rr:subjectMap [
+        rr:template "LocationByCoordinates_SpatialObject_{Id}";
+        rr:termType rr:BlankNode;
+        rr:class eurotl:LocationByCoordinates;
+    ]; 
+    rr:predicateObjectMap [
+        rr:predicate schema:minValue;
+        rr:objectMap [ rr:column "StartStation" ];
+    ];
+        rr:predicateObjectMap [
+        rr:predicate schema:maxValue;
+        rr:objectMap [ rr:column "EndStation" ];
+    ];
+.

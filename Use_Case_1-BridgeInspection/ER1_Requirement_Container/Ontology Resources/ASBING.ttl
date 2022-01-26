@@ -1,0 +1,154 @@
+@prefix : <http://asbing.de/condition/def/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://asbing.de/condition/def/> .
+
+<http://asbing.de/condition/def/> rdf:type owl:Ontology ;
+                                   owl:imports <http://okstraowl.org/def/2017/okstraowl> ,
+                                               <http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_TC1> ,
+                                               <http://www.buildingsmart-tech.org/ifcOWL/IFC4x1_FINAL> ,
+                                               <http://www.roadotl.eu/def> ;
+                                   rdfs:comment "Schadensbewertung nach RI-ERH-ING bzw. RI-EBW-PRÜF 2017 mit Anwendung in Deutschland"^^xsd:string ;
+                                   rdfs:label "Schadensbewertung"^^xsd:string ;
+                                   owl:versionInfo "Version 0.5"^^xsd:string .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://asbing.de/condition/def/Durability
+:Durability rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.roadotl.eu/def/Condition> ;
+            rdfs:label "Dauerhaftigkeit"^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Durability_Category_0
+:Durability_Category_0 rdf:type owl:Class ;
+                       rdfs:subClassOf :Durability ;
+                       rdfs:comment "Der Mangel/Schaden hat keinen Einfluss auf die Dauerhaftigkeit des Bauteils/Bauwerks."^^xsd:string ;
+                       rdfs:label "0 - kein Einfluss"^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Durability_Category_1
+:Durability_Category_1 rdf:type owl:Class ;
+                       rdfs:subClassOf :Durability ;
+                       rdfs:comment "Der Mangel/Schaden beeinträchtigt die Dauerhaftigkeit des Bauteils, hat jedoch langfristig nur geringen Einfluss auf die Dauerhaftigkeit des Bauwerks. Eine Schadensausbreitung oder Folgeschädigung anderer Bauteile ist nicht zu erwarten. Schadensbeseitigung im Rahmen der Bauwerksunterhaltung."^^xsd:string ;
+                       rdfs:label "1 - Schadensbeseitigung im Rahmen der Bauwerksunterhaltung."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Durability_Category_2
+:Durability_Category_2 rdf:type owl:Class ;
+                       rdfs:subClassOf :Durability ;
+                       rdfs:comment "Der Mangel/Schaden beeinträchtigt die Dauerhaftigkeit des Bauteils und kann langfristig auch zur Beeinträchtigung der Dauerhaftigkeit des Bauwerks führen. Die Schadensausbreitung oder Folgeschädigung anderer Bauteile kann nicht ausgeschlossen werden. Schadensbeseitigung mittelfristig erforderlich."^^xsd:string ;
+                       rdfs:label "2 - Schadensbeseitigung mittelfristig erforderlich."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Durability_Category_3
+:Durability_Category_3 rdf:type owl:Class ;
+                       rdfs:subClassOf :Durability ;
+                       rdfs:comment "Der Mangel/Schaden beeinträchtigt die Dauerhaftigkeit des Bauteils und führt mittelfristig zur Beeinträchtigung der Dauerhaftigkeit des Bauwerks. Eine Schadensausbreitung oder Folgeschädigung anderer Bauteile ist zu erwarten. Schadensbeseitigung kurzfristig erforderlich."^^xsd:string ;
+                       rdfs:label "3 - Schadensbeseitigung kurzfristig erforderlich."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Durability_Category_4
+:Durability_Category_4 rdf:type owl:Class ;
+                       rdfs:subClassOf :Durability ;
+                       rdfs:comment "Durch den Mangel/Schaden ist die Dauerhaftigkeit des Bauteils und des Bauwerks nicht mehr gegeben. Die Schadensausbreitung oder Folgeschädigung anderer Bauteile erfordert umgehend eine Nutzungseinschränkung, Instandsetzung oder Bauwerkserneuerung."^^xsd:string ;
+                       rdfs:label "4 - Die Schadensausbreitung oder Folgeschädigung anderer Bauteile erfordert umgehend eine Nutzungseinschränkung, Instandsetzung oder Bauwerkserneuerung."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Safety
+:Safety rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.roadotl.eu/def/Condition> ;
+        rdfs:label "Verkehrssicherheit"^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Safety_Category_0
+:Safety_Category_0 rdf:type owl:Class ;
+                   rdfs:subClassOf :Safety ;
+                   rdfs:comment "Der Mangel/Schaden hat keinen Einfluss auf die Verkehrssicherheit."^^xsd:string ;
+                   rdfs:label "0 - kein Einfluss"^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Safety_Category_1
+:Safety_Category_1 rdf:type owl:Class ;
+                   rdfs:subClassOf :Safety ;
+                   rdfs:comment "Der Mangel/Schaden hat kaum Einfluss auf die Verkehrssicherheit; die Verkehrssicherheit ist gegeben. Schadensbeseitigung im Rahmen der Bauwerksunterhaltung."^^xsd:string ;
+                   rdfs:label "1 - Schadensbeseitigung im Rahmen der Bauwerksunterhaltung."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Safety_Category_2
+:Safety_Category_2 rdf:type owl:Class ;
+                   rdfs:subClassOf :Safety ;
+                   rdfs:comment "Der Mangel/Schaden beeinträchtigt geringfügig die Verkehrssicherheit; die Verkehrssicherheit ist jedoch noch gegeben. Schadensbeseitigung oder Warnhinweis erforderlich."^^xsd:string ;
+                   rdfs:label "2 - Schadensbeseitigung oder Warnhinweis erforderlich."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Safety_Category_3
+:Safety_Category_3 rdf:type owl:Class ;
+                   rdfs:subClassOf :Safety ;
+                   rdfs:comment "Der Mangel/Schaden beeinträchtigt die Verkehrssicherheit; die Verkehrssicherheit ist nicht mehr voll gegeben. Schadensbeseitigung oder Warnhinweis kurzfristig erforderlich."^^xsd:string ;
+                   rdfs:label "3 - Schadensbeseitigung oder Warnhinweis kurzfristig erforderlich."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Safety_Category_4
+:Safety_Category_4 rdf:type owl:Class ;
+                   rdfs:subClassOf :Safety ;
+                   rdfs:comment "Durch den Mangel/Schaden ist die Verkehrssicherheit nicht mehr gegeben. Sofortige Maßnahmen sind während der Bauwerksprüfung erforderlich. Eine Nutzungseinschränkung ist umgehend vorzunehmen. Die Instandsetzung oder Erneuerung ist einzuleiten."^^xsd:string ;
+                   rdfs:label "4 - Die Instandsetzung oder Erneuerung ist einzuleiten."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Stability
+:Stability rdf:type owl:Class ;
+           rdfs:subClassOf <http://www.roadotl.eu/def/Condition> ;
+           rdfs:label "Standsicherheit"^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Stability_Category_0
+:Stability_Category_0 rdf:type owl:Class ;
+                      rdfs:subClassOf :Stability ;
+                      rdfs:comment "Der Mangel/Schaden hat keinen Einfluss auf die Standsicherheit des Bauteils/Bauwerks"^^xsd:string ;
+                      rdfs:label "0 - kein Einfluss"^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Stability_Category_1
+:Stability_Category_1 rdf:type owl:Class ;
+                      rdfs:subClassOf :Stability ;
+                      rdfs:comment "Der Mangel/Schaden beeinträchtigt die Standsicherheit des Bauteils, hat jedoch keinen Einfluss auf die Standsicherheit des Bauwerks. Einzelne geringfügige Abweichungen in Bauteilzustand, Baustoffqualität oder Bauteilabmessungen und geringfügige Abweichungen hinsichtlich der planmäßigen Beanspruchung liegen noch deutlich im Rahmen der zulässigen Toleranzen. Schadensbeseitigung im Rahmen der Bauwerksunterhaltung."^^xsd:string ;
+                      rdfs:label "1 - Schadensbeseitigung im Rahmen der Bauwerksunterhaltung."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Stability_Category_2
+:Stability_Category_2 rdf:type owl:Class ;
+                      rdfs:subClassOf :Stability ;
+                      rdfs:comment "Der Mangel/Schaden beeinträchtigt die Standsicherheit des Bauteils, hat jedoch nur geringen Einfluss auf die Standsicherheit des Bauwerks. Die Abweichungen in Bauteilzustand, Baustoffqualität oder Bauteilabmessungen oder hinsichtlich der planmäßigen Beanspruchung aus der Bauwerksnutzung haben die Toleranzgrenzen erreicht bzw. in Einzelfällen überschritten. Schadensbeseitigung mittelfristig erforderlich."^^xsd:string ;
+                      rdfs:label "2 - Schadensbeseitigung mittelfristig erforderlich."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Stability_Category_3
+:Stability_Category_3 rdf:type owl:Class ;
+                      rdfs:subClassOf :Stability ;
+                      rdfs:comment "Der Mangel/Schaden beeinträchtigt die Standsicherheit des Bauteils und des Bauwerks. Die Abweichungen in Bauteilzustand, Baustoffqualität oder Bauteilabmessungen oder hin-sichtlich der planmäßigen Beanspruchung aus der Bauwerksnutzung übersteigen die zulässigen Toleranzen. Erforderliche Nutzungseinschränkungen sind nicht vorhanden oder unwirksam. Eine Nutzungseinschränkung ist gegebenenfalls umgehend vorzunehmen. Schadensbeseitigung kurzfristig erforderlich."^^xsd:string ;
+                      rdfs:label "3 - Schadensbeseitigung kurzfristig erforderlich."^^xsd:string .
+
+
+###  http://asbing.de/condition/def/Stability_Category_4
+:Stability_Category_4 rdf:type owl:Class ;
+                      rdfs:subClassOf :Stability ;
+                      rdfs:comment "Die Standsicherheit des Bauteils und des Bauwerks ist nicht mehr gegeben. Erforderliche Nutzungseinschränkungen sind nicht vorhanden oder unwirksam. Sofortige Maßnahmen sind während der Bauwerksprüfung erforderlich. Eine Nutzungseinschränkung ist umgehend vorzunehmen. Die Instandsetzung oder Erneuerung ist einzuleiten."^^xsd:string ;
+                      rdfs:label "4 - Die Instandsetzung oder Erneuerung ist einzuleiten."^^xsd:string .
+
+
+###  http://okstraowl.org/def/2017/okstraowl#Schaden_Bauwerk
+<http://okstraowl.org/def/2017/okstraowl#Schaden_Bauwerk> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.roadotl.eu/def/Condition> .
+
+
+###  http://www.roadotl.eu/def/Condition
+<http://www.roadotl.eu/def/Condition> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

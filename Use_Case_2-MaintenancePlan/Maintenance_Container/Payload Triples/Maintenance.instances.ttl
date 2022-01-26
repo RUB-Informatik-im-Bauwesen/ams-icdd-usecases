@@ -1,0 +1,36 @@
+# baseURI: http://example.org/maintenance
+# imports: http://www.roadotl.eu/def/
+# prefix: maintenance
+
+@prefix def: <http://www.roadotl.eu/def/> .
+@prefix maintenance: <http://example.org/maintenance#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/maintenance>
+  rdf:type owl:Ontology ;
+  owl:imports def: ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+maintenance:LocationMainten2023
+  rdf:type def:LocationByCoordinates ;
+  xsd:maxInclusive "1000" ;
+  xsd:minInclusive "800" ;
+.
+maintenance:Maintenance2023
+  rdf:type def:MaintenanceActivity ;
+  rdfs:label "Pavement maintenance at 2023" ;
+  prov:atLocation maintenance:LocationMainten2023 ;
+  prov:atLocation maintenance:NK1_NK2 ;
+  prov:category "Road Type III" ;
+  prov:startedAtTime "2023-07-15T00:00:00"^^xsd:dateTime ;
+  prov:todo "Renewal of pavement toplayer with chippings matrix asphalt" ;
+  prov:value "350 TEuro" ;
+.
+maintenance:NK1_NK2
+  rdf:type def:GeographicalName ;
+  rdfs:label "Location of the planned pavement maintanence 2023" ;
+.

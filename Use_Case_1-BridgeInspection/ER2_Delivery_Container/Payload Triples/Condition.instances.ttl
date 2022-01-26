@@ -1,0 +1,97 @@
+# baseURI: http://example.org/conditions
+# imports: http://asbing.de/condition/def/
+# prefix: conditions
+
+@prefix conditions: <http://example.org/conditions#> .
+@prefix def: <http://asbing.de/condition/def/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/conditions>
+  rdf:type owl:Ontology ;
+  owl:imports def: ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+conditions:Durability0_abWest
+  rdf:type def:Durability_Category_0 ;
+.
+conditions:Durability0_fEast
+  rdf:type def:Durability_Category_0 ;
+.
+conditions:Durability0_fWest
+  rdf:type def:Durability_Category_0 ;
+.
+conditions:Durability1_abEast
+  rdf:type def:Durability_Category_0 ;
+.
+conditions:Durability1_crBEast
+  rdf:type def:Durability_Category_1 ;
+.
+conditions:Durability1_crBMiddle
+  rdf:type def:Durability_Category_1 ;
+.
+conditions:Durability1_crBWest
+  rdf:type def:Durability_Category_1 ;
+.
+conditions:Durability1_mBNorth
+  rdf:type def:Durability_Category_1 ;
+.
+conditions:Durability3_mBSouth
+  rdf:type def:Durability_Category_3 ;
+.
+conditions:Safety0_abEast
+  rdf:type def:Safety_Category_0 ;
+.
+conditions:Safety0_abWest
+  rdf:type def:Safety_Category_0 ;
+.
+conditions:Safety0_crBEast
+  rdf:type def:Safety_Category_0 ;
+.
+conditions:Safety0_crBMiddle
+  rdf:type def:Safety_Category_0 ;
+.
+conditions:Safety0_crBWest
+  rdf:type def:Safety_Category_0 ;
+.
+conditions:Safety0_fEast
+  rdf:type def:Safety_Category_0 ;
+.
+conditions:Safety0_fWest
+  rdf:type def:Safety_Category_0 ;
+.
+conditions:Safety0_mBNord
+  rdf:type def:Safety_Category_0 ;
+.
+conditions:Safety0_mBSouth
+  rdf:type def:Safety_Category_0 ;
+.
+conditions:Stability0_abEast
+  rdf:type def:Stability_Category_0 ;
+.
+conditions:Stability0_abWest
+  rdf:type def:Stability_Category_0 ;
+.
+conditions:Stability0_fEast
+  rdf:type def:Stability_Category_0 ;
+.
+conditions:Stability0_fWest
+  rdf:type def:Stability_Category_0 ;
+.
+conditions:Stability1_crBEast
+  rdf:type def:Stability_Category_1 ;
+.
+conditions:Stability1_crBMiddle
+  rdf:type def:Stability_Category_1 ;
+.
+conditions:Stability1_crBWest
+  rdf:type def:Stability_Category_1 ;
+.
+conditions:Stability1_mBNorth
+  rdf:type def:Stability_Category_1 ;
+.
+conditions:Stability3_mBSouth
+  rdf:type def:Stability_Category_3 ;
+.

@@ -1,0 +1,517 @@
+@base <http://icdd.vm.rub.de/ontology/amsinstances>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix amsql: <http://icdd.vm.rub.de/ontology/amsql#>.
+@prefix amsinst: <http://icdd.vm.rub.de/ontology/amsinstances#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix asbing: <http://asbing.de/condition/def/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix bot: <https://w3id.org/bot#>.
+@prefix eurotl: <http://www.roadotl.eu/def/>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix schema: <https://schema.org/>.
+
+amsinst:SpatialObject_41 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "5.3E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "5.0E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "8.8E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "3.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 41 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 0  ; 
+                                          schema:maxValue 100 ];
+                         prov:generatedAtTime "2015-05-05"^^xsd:Date.
+amsinst:SpatialObject_42 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "4.33E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "4.7E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "8.2E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 42 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 100  ; 
+                                          schema:maxValue 200 ];
+                         prov:generatedAtTime "2015-05-05"^^xsd:Date.
+amsinst:SpatialObject_43 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "4.67E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "4.7E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "9.0E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 43 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 200  ; 
+                                          schema:maxValue 300 ];
+                         prov:generatedAtTime "2015-05-05"^^xsd:Date.
+amsinst:SpatialObject_44 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "4.41E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "7.3E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "9.9E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 44 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 300  ; 
+                                          schema:maxValue 400 ];
+                         prov:generatedAtTime "2015-05-05"^^xsd:Date.
+amsinst:SpatialObject_45 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "4.23E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "1.11E0"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "9.9E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 45 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 400  ; 
+                                          schema:maxValue 500 ];
+                         prov:generatedAtTime "2015-05-05"^^xsd:Date.
+amsinst:SpatialObject_46 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "3.55E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "7.0E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "8.5E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 46 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 500  ; 
+                                          schema:maxValue 600 ];
+                         prov:generatedAtTime "2015-05-05"^^xsd:Date.
+amsinst:SpatialObject_47 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "6.55E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "2.2E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "8.0E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 47 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 600  ; 
+                                          schema:maxValue 700 ];
+                         prov:generatedAtTime "2015-05-05"^^xsd:Date.
+amsinst:SpatialObject_48 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "6.69E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "4.7E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "8.9E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 48 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 700  ; 
+                                          schema:maxValue 800 ];
+                         prov:generatedAtTime "2015-05-05"^^xsd:Date.
+amsinst:SpatialObject_49 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "5.14E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "4.8E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "8.3E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 49 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 800  ; 
+                                          schema:maxValue 900 ];
+                         prov:generatedAtTime "2015-05-05"^^xsd:Date.
+amsinst:SpatialObject_50 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "5.65E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "9.8E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "8.3E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 50 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 900  ; 
+                                          schema:maxValue 1000 ];
+                         prov:generatedAtTime "2015-05-05"^^xsd:Date.
+amsinst:SpatialObject_51 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "4.39E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "1.12E0"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "1.53E1"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 51 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 0  ; 
+                                          schema:maxValue 100 ];
+                         prov:generatedAtTime "2020-08-26"^^xsd:Date.
+amsinst:SpatialObject_52 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "4.2E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "7.8E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "1.4E1"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 52 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 100  ; 
+                                          schema:maxValue 200 ];
+                         prov:generatedAtTime "2020-08-26"^^xsd:Date.
+amsinst:SpatialObject_53 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "4.48E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "9.2E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "1.16E1"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "1.32E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 53 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 200  ; 
+                                          schema:maxValue 300 ];
+                         prov:generatedAtTime "2020-08-26"^^xsd:Date.
+amsinst:SpatialObject_54 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "4.05E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "1.07E0"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "1.36E1"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "1.67E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 54 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 300  ; 
+                                          schema:maxValue 400 ];
+                         prov:generatedAtTime "2020-08-26"^^xsd:Date.
+amsinst:SpatialObject_55 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "4.34E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "5.6E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "1.68E1"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 55 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 400  ; 
+                                          schema:maxValue 500 ];
+                         prov:generatedAtTime "2020-08-26"^^xsd:Date.
+amsinst:SpatialObject_56 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "3.65E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "4.3E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "1.5E1"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 56 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 500  ; 
+                                          schema:maxValue 600 ];
+                         prov:generatedAtTime "2020-08-26"^^xsd:Date.
+amsinst:SpatialObject_57 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "3.73E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "3.6E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "1.44E1"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "6.6E-1"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 57 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 600  ; 
+                                          schema:maxValue 700 ];
+                         prov:generatedAtTime "2020-08-26"^^xsd:Date.
+amsinst:SpatialObject_58 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "4.44E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "9.5E-1"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "1.15E1"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "0.0E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 58 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 700  ; 
+                                          schema:maxValue 800 ];
+                         prov:generatedAtTime "2020-08-26"^^xsd:Date.
+amsinst:SpatialObject_59 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "3.84E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "2.77E0"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "1.01E1"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "5.67E0"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 59 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 800  ; 
+                                          schema:maxValue 900 ];
+                         prov:generatedAtTime "2020-08-26"^^xsd:Date.
+amsinst:SpatialObject_60 eurotl:hasCondition [a eurotl:Condition ; 
+                                              a amsinst:Friction ; 
+                                              prov:value "6.78E-1"^^xsd:decimal ; 
+                                              rdfs:label "Friction"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:Evenness ; 
+                                              prov:value "3.01E0"^^xsd:decimal ; 
+                                              rdfs:label "Evenness"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:RutDepth ; 
+                                              prov:value "6.1E0"^^xsd:decimal ; 
+                                              rdfs:label "RutDepth"],
+                                             [a eurotl:Condition ; 
+                                              a amsinst:CrackWidth ; 
+                                              prov:value "1.1E1"^^xsd:decimal ; 
+                                              rdfs:label "CrackWidth"];
+                         a eurotl:SpatialObject,
+                           eurotl:Lane;
+                         rdfs:label 60 ;
+                         prov:atLocation [a eurotl:LocationGeographicalName ; 
+                                          rdf:label "NK1_NK2"],
+                                         [a eurotl:LocationByCoordinates ; 
+                                          schema:minValue 900  ; 
+                                          schema:maxValue 1000 ];
+                         prov:generatedAtTime "2020-08-26"^^xsd:Date.

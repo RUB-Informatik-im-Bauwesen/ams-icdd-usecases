@@ -1,0 +1,65 @@
+# baseURI: http://example.org/elements
+# imports: https://w3id.org/bot#
+# prefix: elements
+
+@prefix bot: <https://w3id.org/bot#> .
+@prefix elements: <http://example.org/elements#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/elements>
+  rdf:type owl:Ontology ;
+  owl:imports bot: ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+elements:abutmentEast
+  rdf:type bot:Element ;
+  rdfs:label "Abutment wall placed at east side" ;
+.
+elements:abutmentWest
+  rdf:type bot:Element ;
+  rdfs:label "Abutment wall placed at west side" ;
+.
+elements:concreteBridge
+  rdf:type bot:Building ;
+  rdfs:label "Concrete road bridge over river" ;
+  bot:hasElement elements:abutmentEast ;
+  bot:hasElement elements:abutmentWest ;
+  bot:hasElement elements:crossBeamEast ;
+  bot:hasElement elements:crossBeamMiddle ;
+  bot:hasElement elements:crossBeamWest ;
+  bot:hasElement elements:foundationEast ;
+  bot:hasElement elements:foundationWest ;
+  bot:hasElement elements:mainBeamNorth ;
+  bot:hasElement elements:mainBeamSouth ;
+.
+elements:crossBeamEast
+  rdf:type bot:Element ;
+  rdfs:label "Cross beam placed at east side" ;
+.
+elements:crossBeamMiddle
+  rdf:type bot:Element ;
+  rdfs:label "Cross beam placed at the middle of the bridge" ;
+.
+elements:crossBeamWest
+  rdf:type bot:Element ;
+  rdfs:label "Cross beam placed at west side" ;
+.
+elements:foundationEast
+  rdf:type bot:Element ;
+  rdfs:label "Foundation placed at east side" ;
+.
+elements:foundationWest
+  rdf:type bot:Element ;
+  rdfs:label "Foundation placed at west side" ;
+.
+elements:mainBeamNorth
+  rdf:type bot:Element ;
+  rdfs:label "Main beam placed at north side" ;
+.
+elements:mainBeamSouth
+  rdf:type bot:Element ;
+  rdfs:label "Main beam placed at south" ;
+.

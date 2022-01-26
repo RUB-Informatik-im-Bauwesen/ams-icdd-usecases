@@ -1,0 +1,27 @@
+# baseURI: http://example.org/inspections
+# imports: http://www.roadotl.eu/def/
+# prefix: inspections
+
+@prefix def: <http://www.roadotl.eu/def/> .
+@prefix inspections: <http://example.org/inspections#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/inspections>
+  rdf:type owl:Ontology ;
+  owl:imports def: ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+inspections:EngineerOfficeBridge
+  rdf:type prov:Organization ;
+.
+inspections:Inspection2020
+  rdf:type def:InspectionActivity ;
+  rdfs:label "Visual Inspektion of concrete road bridge on 2020" ;
+  prov:endedAtTime "2020-07-18T17:30:27.892"^^xsd:dateTime ;
+  prov:startedAtTime "2020-07-18T09:30:27.892"^^xsd:dateTime ;
+  prov:wasAssociatedWith inspections:EngineerOfficeBridge ;
+.

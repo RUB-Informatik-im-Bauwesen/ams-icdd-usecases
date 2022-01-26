@@ -1,0 +1,17 @@
+
+SELECT ?lane  ?val ?ifcguid
+WHERE { 
+?subject ?predicate <http://icdd.vm.rub.de/ontology/amsinstances#CrackWidth> .
+?subject <http://www.w3.org/ns/prov#value> ?value .
+?lane ?hasCondition ?subject .
+OPTIONAL{
+?ident1 <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#uri> ?lane .
+?le1 <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasIdentifier> ?ident1 .
+?link ?pred2 ?le1 .
+?link ?pred2 ?le2 .
+?le2 <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasIdentifier> ?ident2 .
+?ident2 <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifier> ?ifcguid .
+}
+FILTER(!sameTerm(?le1, ?le2))
+FILTER(?value>3.0E0)
+}

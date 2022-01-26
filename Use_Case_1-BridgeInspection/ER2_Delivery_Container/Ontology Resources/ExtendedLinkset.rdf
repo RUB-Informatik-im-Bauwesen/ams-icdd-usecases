@@ -1,0 +1,135 @@
+﻿<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns="https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:ls="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:voaf="http://purl.org/vocommons/voaf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset"/>
+    <vann:preferredNamespacePrefix>els</vann:preferredNamespacePrefix>
+    <vann:preferredNamespaceUri rdf:resource=""/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2020-01-01</dcterms:issued>
+    <dc:rights xml:lang="en-GB">© ISO 2020. All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester. 
+ISO copyright office
+ CP 401, Ch. de Blandonnet 8, CH-1214 Vernier, Geneva
+ Phone: +41 22 749 01 11
+ Fax: +41 22 749 09 47
+ Email: copyright@iso.org
+ Website: www.iso.org
+ Published in Switzerland</dc:rights>
+    <owl:versionInfo>v1.0</owl:versionInfo>
+    <dcterms:description xml:lang="en-GB">ISO 21597 Part 2 gives a specification for more semantic relations as specializations of the generic relations of Part 1 between documentes or entries within documents within a container.</dcterms:description>
+    <dcterms:title xml:lang="en-GB">The ISO 21597 ICDD Part 2 Extended Linkset ontology.</dcterms:title>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+    <dcterms:creator>
+      <foaf:Organization>
+        <foaf:name>ISO</foaf:name>
+        <foaf:address>ISO copyright office CP 401, Ch. de Blandonnet 8, CH-1214 Vernier, Geneva</foaf:address>
+        <foaf:Phone>+41 22 749 01 11</foaf:Phone>
+        <foaf:Fax>+41 22 749 09 47</foaf:Fax>
+        <foaf:Email>copyright@iso.org</foaf:Email>
+        <foaf:website>http://www.iso.org</foaf:website>
+      </foaf:Organization>
+    </dcterms:creator>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2020-01-01</dcterms:modified>
+  </owl:Ontology>
+  <owl:Class rdf:ID="Elaborates">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Elaborates</rdfs:label>
+    <skos:definition>Possibly transitive, non-symmetric and inverse of IsElaboratedBy</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="IsIdenticalTo">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#BinaryLink"/>
+    <rdfs:label xml:lang="en-GB">Is identical to</rdfs:label>
+    <skos:definition>This link type relates two link elements that are identical but may be represented in different ways. Possibly transitive, symmetric and being its own inverse</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="HasPart">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Has part</rdfs:label>
+    <skos:definition>This link type relates one link element to one or more other link elements to form an assembly of parts where those parts exist independently. Possibly transitive, non-symmetric and inverse of IsPartOf</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="IsPartOf">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Is part of</rdfs:label>
+    <skos:definition>Possibly transitive, non-symmetric and inverse of HasPart</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Controls">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Controls</rdfs:label>
+    <skos:definition>This link type relates one link element to one or more other link elements over which it exercises some type of control. Possibly transitive, non-symmetric and inverse of IsControlledBy</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="IsElaboratedBy">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Is elaborated by</rdfs:label>
+    <skos:definition>This link type relates one link element to one or more other link elements where they provide further explanation, reasoning, derivation, information or usage. Possibly transitive, non-symmetric and inverse of IsElaboratedBy</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Specialises">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Specialises</rdfs:label>
+    <skos:definition>Possibly transitive, non-symmetric and inverse of IsSpecialisedAs</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Supersedes">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Supersedes</rdfs:label>
+    <skos:definition>This link type relates one link element to one or more other link elements where they are a development of or supersede it in some way. Possibly transitive, non-symmetric and inverse of IsSupersededBy</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="IsAlternativeTo">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#BinaryLink"/>
+    <rdfs:label xml:lang="en-GB">Is alternative to</rdfs:label>
+    <skos:definition>This link type relates two link elements where one is an alternative to the other. Possibly transitive, symmetric and being its own inverse</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="IsMemberOf">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Is member of</rdfs:label>
+    <skos:definition>Possibly non-transitive, non-symmetric and inverse of HasMember</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="IsSpecialisedAs">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Is specialised as</rdfs:label>
+    <skos:definition>This link type relates one link element to one or more other link elements that are specializations or sub-classes. Possibly transitive, non-symmetric and inverse of Specialises</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="IsControlledBy">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Is controlled by</rdfs:label>
+    <skos:definition>Possibly transitive, non-symmetric and inverse of Controls</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="IsSupersededBy">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Is superseded by</rdfs:label>
+    <skos:definition>Possibly transitive, non-symmetric and inverse of Supersedes</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="HasMember">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink"/>
+    <rdfs:label xml:lang="en-GB">Has member</rdfs:label>
+    <skos:definition>This link type relates one link element to one or more other link elements to form a grouping based on some consistent criteria. Possibly non-transitive, non-symmetric and inverse of IsMemberOf</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="ConflictsWith">
+    <rdfs:subClassOf rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#BinaryLink"/>
+    <skos:definition>This link type relates two link elements that conflict with one another in some way. Possibly non-transitive, symmetric and being its own inverse</skos:definition>
+    <rdfs:label xml:lang="en-GB">Conflicts with</rdfs:label>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->
+
+

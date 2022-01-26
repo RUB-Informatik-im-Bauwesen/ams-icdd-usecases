@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY ct 'https://standards.iso.org/iso/21597/-1/ed-1/en/Container#'>
+	<!ENTITY ls 'https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#'>
+	<!ENTITY els 'https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#'>
+	<!ENTITY exdc 'https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#'>
+]>
+<rdf:RDF xml:base="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ct="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#" xmlns:ls="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#" xmlns:els="https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#" xmlns:exdc="https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#" xmlns="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element">
+    <owl:imports rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset.rdf" />
+  </rdf:Description>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#026567ba-c956-45d8-b3b0-328d551114a8">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Safety0_crBWest" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#02ed056a-017c-4235-9cc3-9d32046054cb">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#3ec18be7-bf24-4429-87bf-b25b6e7456a3" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#0cd602a4-beac-4c7f-9d9f-cf06b1710c74">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#807a1b1d-ea17-43e9-8954-047049c44d8e" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#0ef17de8-3204-4731-8a28-055646dbf7c3">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/elements#mainBeamNorth" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#0f233010-6263-40fb-9aac-aa62c86b7174">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/elements#abutmentWest" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#0f56f4be-4292-44f9-9cff-d077af205574">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Durability0_fEast" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#160fa4fd-5865-4980-9fc1-651a83d40e92">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#bf28e65d-a24b-4216-a0dd-2e4808a82179" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#1654bfd8-9e18-426c-8ec0-430ab94254d0">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#af479502-e537-45a8-af9a-26a7ec0a6a87" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#18fa5147-10eb-4a4d-a01e-5552f5bd1c86">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#9ebac749-b027-4198-aafb-4a551f306800" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#1c9da127-e038-4ef8-b6d9-0ac9c8ecbf9b">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#79cb5989-25d1-41bf-986a-81db6a66d31d" />
+  </ls:LinkElement>
+  <els:Specialises rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#1d52ec73-624d-4311-8047-a7b151d2d7f5">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:creationDate>
+    <ls:hasFromLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#750f558d-90ee-4ffe-aef4-d9e125adbb0e" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#18fa5147-10eb-4a4d-a01e-5552f5bd1c86" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#b49f3a5d-752f-445e-ad91-dc783268d4a4" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#c7645d9c-bc6b-48ef-9942-df074151b79d" />
+  </els:Specialises>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#1dab05a9-fadb-46fc-9ce6-f3afff5b9b0f">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#0f56f4be-4292-44f9-9cff-d077af205574" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2450c9e8-3834-418c-9eff-9201902e5b65">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#35cfb4f8-8cfb-490f-8718-372320cf609b" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#246031e8-b924-4572-bab5-7f3eb1c06d32">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#5a0bde57-b388-40df-9698-331476d026a8" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#24da0adb-201b-4334-9497-175d9b86e1aa">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#7e34f9c0-0ceb-4547-93a2-544a62addaae" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2a73941e-eb9b-4875-82c8-b4341cde2fa2">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#353ccbc2-1d2f-4bc4-88fc-e703b675a5cf" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2a9f18af-c43e-4a10-8b98-cb9da3b775a8">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Durability1_crBMiddle" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2aa15524-5242-44d9-b294-1d5a404099ac">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Safety0_mBNord" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2c23ee09-92e4-4e5d-a3ac-addcc294a87b">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/elements#foundationWest" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2c47be55-4cfa-4270-822e-41fe0832cd8f">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Safety0_crBEast" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#30d5c916-9841-4fbd-9c43-dcd82320c953">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/elements#mainBeamSouth" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#31c7bfd8-9a31-485c-bd25-ff306af0a50c">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2c23ee09-92e4-4e5d-a3ac-addcc294a87b" />
+  </ls:LinkElement>
+  <els:Specialises rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#339d026b-e181-4c6a-a526-7f55c61184ad">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:creationDate>
+    <ls:hasFromLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#d122c3ca-202f-4675-a56f-154747b831c5" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#1654bfd8-9e18-426c-8ec0-430ab94254d0" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2a73941e-eb9b-4875-82c8-b4341cde2fa2" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#7b4441cc-1b5d-4df8-a8a5-517069ca55e4" />
+  </els:Specialises>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#3422b9a0-4974-4ab7-8a9e-b7766743dd29">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Durability1_abEast" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#353ccbc2-1d2f-4bc4-88fc-e703b675a5cf">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Stability1_crBMiddle" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#35cfb4f8-8cfb-490f-8718-372320cf609b">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Safety0_mBSouth" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#38c4f00b-1e07-4de1-a70b-d84ad476eafb">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/elements#foundationEast" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#3e0de7f0-3560-4bf5-a412-6168da83763f">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#e5d9b74c-f9ec-4cb1-bd9a-0367eb96a866" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#3ec18be7-bf24-4429-87bf-b25b6e7456a3">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Stability0_fEast" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#40c3a016-7a76-4ea0-ad82-f387b67233c2">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#71f2ae7d-1e74-448c-a75f-dbd5b0e5b971" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#41664192-c9a0-4729-ba4b-86f30b64ac0b">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Durability1_crBWest" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#4277a09e-b7cc-4b37-9eb4-f7e381cc56ec">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#0ef17de8-3204-4731-8a28-055646dbf7c3" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#428df15d-1a4f-4db7-bb3c-f3edaaa35a8e">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#41664192-c9a0-4729-ba4b-86f30b64ac0b" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#445703b0-ed5b-456b-bd89-1cefc4bc378f">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#38c4f00b-1e07-4de1-a70b-d84ad476eafb" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#52840ad2-34fb-4bf8-ab8a-c43677fe1ca6">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Stability0_abWest" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#54ae3b0b-7671-474f-9123-d743c854ccb8">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Durability1_crBEast" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#54ef8a96-b68c-4bf0-a1fd-0f9bdbb021a9">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#68a5691c-71ca-4fb0-8194-fb3fd98d85ad" />
+  </ls:LinkElement>
+  <els:Specialises rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#575dc956-4073-470f-877d-c3beb55c0fd8">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:creationDate>
+    <ls:hasFromLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#31c7bfd8-9a31-485c-bd25-ff306af0a50c" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#160fa4fd-5865-4980-9fc1-651a83d40e92" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#1c9da127-e038-4ef8-b6d9-0ac9c8ecbf9b" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#54ef8a96-b68c-4bf0-a1fd-0f9bdbb021a9" />
+  </els:Specialises>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#5a0bde57-b388-40df-9698-331476d026a8">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Stability1_mBNorth" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#5d4247d0-3404-4920-95d8-eea2f236a190">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#84d97304-9f55-4037-b711-93c58e394f10" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#5ef1e20c-92e1-48df-9ebc-ea89065b8c40">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#0f233010-6263-40fb-9aac-aa62c86b7174" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#659df84f-693a-4a54-a4c9-d18f3f0ed83a">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#52840ad2-34fb-4bf8-ab8a-c43677fe1ca6" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#66021d27-fd72-48d6-8bfe-8661bf19f69d">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Safety0_abWest" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#68a5691c-71ca-4fb0-8194-fb3fd98d85ad">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Stability0_fWest" />
+  </ls:URIBasedIdentifier>
+  <els:Specialises rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#6a256157-bc20-41d4-be68-1eb54dd81cc5">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:creationDate>
+    <ls:hasFromLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#5ef1e20c-92e1-48df-9ebc-ea89065b8c40" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#3e0de7f0-3560-4bf5-a412-6168da83763f" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#659df84f-693a-4a54-a4c9-d18f3f0ed83a" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#995fe5ec-b7c0-4422-8ebf-faf37329a6a0" />
+  </els:Specialises>
+  <els:Specialises rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#6e1faf4d-50de-48f6-8d27-4e6c37148faa">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:creationDate>
+    <ls:hasFromLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#c79658be-ac29-4d15-a7f6-bdb33cb2bd7c" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#793f8db7-0d62-485c-b1ce-ccbae8605903" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#b6615d03-0d4f-401f-83ab-f6f9d83cc0c4" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#c7e3fad3-0080-4474-8036-5deb35bca216" />
+  </els:Specialises>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#71f2ae7d-1e74-448c-a75f-dbd5b0e5b971">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Durability3_mBSouth" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#724859ec-c494-482a-a8ed-adfcc2738fa9">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#978859f1-cf6f-4a6a-b48d-eca7078e23f9" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#750f558d-90ee-4ffe-aef4-d9e125adbb0e">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#ede3c71d-de0d-4a51-a694-c737420141e3" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#793f8db7-0d62-485c-b1ce-ccbae8605903">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#54ae3b0b-7671-474f-9123-d743c854ccb8" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#79cb5989-25d1-41bf-986a-81db6a66d31d">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Safety0_fWest" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#7b4441cc-1b5d-4df8-a8a5-517069ca55e4">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2a9f18af-c43e-4a10-8b98-cb9da3b775a8" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#7e34f9c0-0ceb-4547-93a2-544a62addaae">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Safety0_fEast" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#807a1b1d-ea17-43e9-8954-047049c44d8e">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Durability1_mBNorth" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#84d97304-9f55-4037-b711-93c58e394f10">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/elements#crossBeamWest" />
+  </ls:URIBasedIdentifier>
+  <owl:Ontology rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#8eee5acc-541a-4e34-b12f-7670ff4010e2">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:35:10</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:35:10</ct:modificationDate>
+  </owl:Ontology>
+  <els:Specialises rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#96f39938-ff9b-4c4a-8521-fe4eea1a2800">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:creationDate>
+    <ls:hasFromLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#5d4247d0-3404-4920-95d8-eea2f236a190" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#428df15d-1a4f-4db7-bb3c-f3edaaa35a8e" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#a88e0db7-1ed4-4497-a517-346efbfb4dd4" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#af930c55-c52c-4ce2-9816-19d678bf16c0" />
+  </els:Specialises>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#978859f1-cf6f-4a6a-b48d-eca7078e23f9">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Stability3_mBSouth" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#97cbdd2f-2d08-4599-89a5-5adbca953266">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Safety0_abEast" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#995fe5ec-b7c0-4422-8ebf-faf37329a6a0">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#66021d27-fd72-48d6-8bfe-8661bf19f69d" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#9ebac749-b027-4198-aafb-4a551f306800">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Stability0_abEast" />
+  </ls:URIBasedIdentifier>
+  <els:Specialises rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#a163e9be-b42b-45a4-bfd1-8e6240593eab">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:44:02</ct:creationDate>
+    <ls:hasFromLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#445703b0-ed5b-456b-bd89-1cefc4bc378f" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#02ed056a-017c-4235-9cc3-9d32046054cb" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#1dab05a9-fadb-46fc-9ce6-f3afff5b9b0f" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#24da0adb-201b-4334-9497-175d9b86e1aa" />
+  </els:Specialises>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#a35be2c4-d6fb-403b-8c64-bca15a391e14">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#30d5c916-9841-4fbd-9c43-dcd82320c953" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#a88e0db7-1ed4-4497-a517-346efbfb4dd4">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#be7d99bc-2c2f-485f-8c26-6677346f9f3d" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#af479502-e537-45a8-af9a-26a7ec0a6a87">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Safety0_crBMiddle" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#af930c55-c52c-4ce2-9816-19d678bf16c0">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#026567ba-c956-45d8-b3b0-328d551114a8" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#b475088b-86f8-41f0-b089-cbd243d914fe">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Stability1_crBEast" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#b49f3a5d-752f-445e-ad91-dc783268d4a4">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#3422b9a0-4974-4ab7-8a9e-b7766743dd29" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#b6615d03-0d4f-401f-83ab-f6f9d83cc0c4">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2c47be55-4cfa-4270-822e-41fe0832cd8f" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#bb326a23-478c-43b9-b87a-1073fded67a4">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2aa15524-5242-44d9-b294-1d5a404099ac" />
+  </ls:LinkElement>
+  <els:Specialises rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#bb6a4e76-72a5-45eb-982c-0fdbdb30be0b">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:50:18</ct:creationDate>
+    <ls:hasFromLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#a35be2c4-d6fb-403b-8c64-bca15a391e14" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#2450c9e8-3834-418c-9eff-9201902e5b65" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#40c3a016-7a76-4ea0-ad82-f387b67233c2" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#724859ec-c494-482a-a8ed-adfcc2738fa9" />
+  </els:Specialises>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#be7d99bc-2c2f-485f-8c26-6677346f9f3d">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:51:47</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Stability1_crBWest" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#bf28e65d-a24b-4216-a0dd-2e4808a82179">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:41:32</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Durability0_fWest" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#c7645d9c-bc6b-48ef-9942-df074151b79d">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#97cbdd2f-2d08-4599-89a5-5adbca953266" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#c79658be-ac29-4d15-a7f6-bdb33cb2bd7c">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#cee68d9c-4b40-4caa-9104-0d6d575d157a" />
+  </ls:LinkElement>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#c7e3fad3-0080-4474-8036-5deb35bca216">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#92f0f71b-a329-4df9-8079-b72fb68a474c" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#b475088b-86f8-41f0-b089-cbd243d914fe" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#cee68d9c-4b40-4caa-9104-0d6d575d157a">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:54:57</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/elements#crossBeamEast" />
+  </ls:URIBasedIdentifier>
+  <ls:LinkElement rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#d122c3ca-202f-4675-a56f-154747b831c5">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:modificationDate>
+    <ls:hasDocument rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#713898d9-01c1-435f-8d41-1c8af1ce5bd4" />
+    <ls:hasIdentifier rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#dd2e3d44-5a61-42f6-8b65-9c2bc37f3c85" />
+  </ls:LinkElement>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#dd2e3d44-5a61-42f6-8b65-9c2bc37f3c85">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:53:05</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/elements#crossBeamMiddle" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#e5d9b74c-f9ec-4cb1-bd9a-0367eb96a866">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:45:47</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/conditions#Durability0_abWest" />
+  </ls:URIBasedIdentifier>
+  <ls:URIBasedIdentifier rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#ede3c71d-de0d-4a51-a694-c737420141e3">
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:creationDate>
+    <ct:isModified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">True</ct:isModified>
+    <ct:modificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:47:09</ct:modificationDate>
+    <ls:uri rdf:resource="http://example.org/elements#abutmentEast" />
+  </ls:URIBasedIdentifier>
+  <els:Specialises rdf:about="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#f6683c4a-f4d6-4d42-bc81-f66173c88999">
+    <ct:createdBy rdf:resource="https://icdd.vm.rub.de/data/-202220145/index#cd670d27-50f8-4947-9e31-dbe1f7999675" />
+    <ct:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">20.01.2022 15:48:43</ct:creationDate>
+    <ls:hasFromLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#4277a09e-b7cc-4b37-9eb4-f7e381cc56ec" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#0cd602a4-beac-4c7f-9d9f-cf06b1710c74" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#246031e8-b924-4572-bab5-7f3eb1c06d32" />
+    <ls:hasToLinkElement rdf:resource="https://icdd.vm.rub.de/data/ER2_Delivery_Container-2022201354/ls/Ls_condition_element#bb326a23-478c-43b9-b87a-1073fded67a4" />
+  </els:Specialises>
+</rdf:RDF>
